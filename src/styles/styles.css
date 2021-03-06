@@ -13,3 +13,13 @@ body {
   height: 100vh;
 
 }
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.info-nav {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background: #ffc02a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff722a, #ffc02a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff722a, #ffc02a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar */
+.service4uBrand {
+  color: white !important;
+}
+
+.navTop {
+  background-color: transparent !important;
+}
+
+.navLink {
+  color: #ffffff !important;
+}
+
+.navLink.active {
+  background-color: #0068ff;
+  border-radius: 10px;
+}
+
+.headNav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.info-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Main content */
+.loginView {
+  margin-top: 10%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 50%;
+  width: 70%;
+}
+
+.loginTitle {
+  font-size: 16px;
+  color: grey;
+}
+
+.formLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.usernameInput {
+  margin-bottom: 15px;
+}
+
+.forgotPass {
+  color: #0068ff;
+  font-weight: lighter !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.checkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remember {
+  font-size: 14px;
+  color: grey;
+  margin-left: 5px;
+}
+
+.signButton {
+  margin-left: 10px;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+
+/* Footer */
+.footerNav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.navFooter {
+  background-color: #0068ff !important;
+  color: #ffffff;
+}

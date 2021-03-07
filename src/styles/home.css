@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    background: #ffc02a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff722a, #ffc02a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff722a, #ffc02a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .headNav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .info-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.navFooter {
+    background-color: #0068ff !important;
+    color: #ffffff;
+}
+
+.homeWelcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.homeWelcome>h1 {
+    color: white;
+}
+.homeWelcome>p {
+    color: white;
+    font-weight: bold;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonSearch {
+    margin-left: 10px;
+}

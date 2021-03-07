@@ -44,54 +44,90 @@
       </div>
     </nav>
 
-    <section class="loginView">
-      <div class="loginContainer">
-        <h4 class="loginTitle">Login</h4>
-        <form class="g-3 formLogin">
-          <div class="usernameInput">
-            <input type="text" class="form-control" id="username" placeholder="Username">
-          </div>
-          <div>
-            <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-          </div>
-          <div>
-            <p class="forgotPass">Forgot password?</p>
-          </div>
-          <div class="signContainer">
-            <div class="form-check checkContainer">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-              <label class="form-check-label remember" for="flexCheckDefault">
-                Remember me
-              </label>
-            </div>
-            <div class="signButton">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+    <section class="mainContainer">
+      <div class="servicesCardsContainer">
+        <div class="cardDown">
+          <div class="card text-white bg-primary" style="max-width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Gardening</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
           </div>
-        </form>
+        </div>
+
+        <div class="cardUp">
+          <div class="card text-dark bg-light" style="max-width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Electrician</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardDown">
+          <div class="card text-white bg-primary" style="max-width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Plumbing</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="registerContainer">
-        <h4 class="loginTitle">Register</h4>
-        <form class="g-3 formLogin">
-          <div class="col-auto usernameInput">
-            <input type="text" class="form-control" id="name" placeholder="Name">
+      <div class="loginRegisterContainer">
+        <div class="loginView">
+          <div class="loginContainer">
+            <h4 class="loginTitle">Login</h4>
+            <form class="g-3 formLogin">
+              <div class="usernameInput">
+                <input type="text" class="form-control" id="username" placeholder="Username">
+              </div>
+              <div>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+              </div>
+              <div>
+                <p class="forgotPass">Forgot password?</p>
+              </div>
+              <div class="signContainer">
+                <div class="form-check checkContainer">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label remember" for="flexCheckDefault">
+                    Remember me
+                  </label>
+                </div>
+                <div class="signButton">
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+              </div>
+            </form>
           </div>
-          <div class="col-auto usernameInput">
-            <input type="text" class="form-control" id="email" placeholder="Email">
+
+          <div class="registerContainer">
+            <h4 class="loginTitle">Register</h4>
+            <form class="g-3 formLogin">
+              <div class="col-auto usernameInput">
+                <input type="text" class="form-control" id="name" placeholder="Name">
+              </div>
+              <div class="col-auto usernameInput">
+                <input type="text" class="form-control" id="email" placeholder="Email">
+              </div>
+              <div class="col-auto usernameInput">
+                <input type="text" class="form-control" id="password" placeholder="Password">
+              </div>
+              <div class="col-auto">
+                <input type="password" class="form-control" id="confirm-password" placeholder="Confirm password">
+              </div>
+              <div class="signContainer">
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-primary mb-3">Register</button>
+                </div>
+              </div>
+            </form>
           </div>
-          <div class="col-auto usernameInput">
-            <input type="text" class="form-control" id="password" placeholder="Password">
-          </div>
-          <div class="col-auto">
-            <input type="password" class="form-control" id="confirm-password" placeholder="Confirm password">
-          </div>
-          <div class="signContainer">
-            <div class="col-auto">
-              <button type="submit" class="btn btn-primary mb-3">Register</button>
-            </div>
-          </div>
-        </form>
+        </div>
       </div>
     </section>
 

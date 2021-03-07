@@ -8,7 +8,7 @@
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <link rel="stylesheet" href="../styles/home.css" />
+  <link rel="stylesheet" href="../styles/account.css" />
   <title>Service4u</title>
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
@@ -30,22 +30,34 @@
         </button>
         <div class="collapse navbar-collapse headNav" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link navLink active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navLink" href="#">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navLink" href="#">Register</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-light bg-primary dropdown-toggle active dropDownAccount" href="#"
+                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Account
+              </a>
+              <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item text-light" href="#">Edit profile</a></li>
+                <li><a class="dropdown-item text-light" href="#">My announces</a></li>
+                <li><a class="dropdown-item text-light" href="#">References</a></li>
+                <li><a class="dropdown-item text-light" href="#">Log out</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-light" href="#">service4u</a></li>
+              </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <section class="accountContainer">
-
+    <section class="homeWelcome">
+      <h1>service4u</h1>
+      <p>Hi, which service are you looking for?</p>
+      <div class="inputGroup">
+        <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+        <button type="button" class="btn btn-primary buttonSearch">Search</button>
+      </div>
     </section>
 
 

@@ -14,6 +14,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Navbar */
 .service4uBrand {
     color: white !important;
 }
@@ -41,11 +42,7 @@ body {
     justify-content: flex-end;
 }
 
-.navFooter {
-    background-color: #0068ff !important;
-    color: #ffffff;
-}
-
+/* Main content */
 .homeWelcome {
     display: flex;
     flex-direction: column;
@@ -72,8 +69,14 @@ body {
     margin-left: 10px;
 }
 
+/* Footer */
 .footerNav {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+}
+
+.navFooter {
+    background-color: #0068ff !important;
+    color: #ffffff;
 }

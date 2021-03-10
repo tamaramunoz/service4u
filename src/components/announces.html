@@ -51,7 +51,7 @@
             <button type="button" class="btn btn-primary">Search</button>
           </div>
           <div class="inputContainer">
-            <div class="input-group flex-nowrap">
+            <div class="inputGroup">
               <input type="text" class="form-control" placeholder="Search" aria-label="Username"
                 aria-describedby="addon-wrapping">
               <select class="form-select" aria-label="Default select example">
@@ -68,62 +68,75 @@
         </div>
 
         <div class="content">
-          <div class="announcesContainer">
-            <div class="sorted">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Sorted by</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+          <div class="announcesCardsContainer">
 
+            <div class="cardsFilters">
+              <div class="sorted">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Sorted by</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+              <div class="addService">
+                <p>Add service</p>
+                <button type="button" class="btn btn-primary">+</button>
+              </div>
             </div>
-            <div class="addService">
-              <p>Add service</p>
-              <button type="button" class="btn btn-primary">Filter</button>
-            </div>
+
             <div class="cardsContainer">
 
-              <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
+              <div class="card mb-3">
+                <div class="infoCardContainer">
+                  <div class="colImage">
                     <img src="../styles/images/Captura.JPG" alt="Announcers">
                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <div class="colData">
+                    <div class="cityName">Spreydon, Christchurch</div>
+                    <h5 class="card-title cardTitle">ELECTRICIAN Registered</h5>
+                    <p class="cardText">Electrician registered with 10 years experience in the Electrical Industry
+                      with attention to detail,
+                      quality control & price conscious. Visit www.electricad.nz</p>
+                    <div class="cardRate">
+                      <p class="card-text"><small class="text-muted">94%</small></p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
+              <div class="card mb-3">
+                <div class="infoCardContainer">
+                  <div class="colImage">
                     <img src="../styles/images/Captura.JPG" alt="Announcers">
                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <div class="colData">
+                    <div class="cityName">Spreydon, Christchurch</div>
+                    <h5 class="card-title cardTitle">ELECTRICIAN Registered</h5>
+                    <p class="cardText">Electrician registered with 10 years experience in the Electrical Industry
+                      with attention to detail,
+                      quality control & price conscious. Visit www.electricad.nz</p>
+                    <div class="cardRate">
+                      <p class="card-text"><small class="text-muted">94%</small></p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
+              <div class="card mb-3">
+                <div class="infoCardContainer">
+                  <div class="colImage">
                     <img src="../styles/images/Captura.JPG" alt="Announcers">
                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <div class="colData">
+                    <div class="cityName">Spreydon, Christchurch</div>
+                    <h5 class="card-title cardTitle">ELECTRICIAN Registered</h5>
+                    <p class="cardText">Electrician registered with 10 years experience in the Electrical Industry
+                      with attention to detail,
+                      quality control & price conscious. Visit www.electricad.nz</p>
+                    <div class="cardRate">
+                      <p class="card-text"><small class="text-muted">94%</small></p>
                     </div>
                   </div>
                 </div>
@@ -133,14 +146,13 @@
           </div>
           <div class="mapContainer">
             <img
-              src="https://images.pexels.com/photos/269874/pexels-photo-269874.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              src="../styles/images/mapa.JPG"
               alt="Map">
           </div>
         </div>
       </div>
 
     </section>
-
 
     <nav class="navbar fixed-bottom navFooter">
       <div class="container-fluid">

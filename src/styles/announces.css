@@ -183,6 +183,100 @@ body {
 }
 
 
+/* Modal */
+.modal-dialog {
+  max-width: 1000px;
+}
+
+.modalBodyContainer {
+  width: 100%;
+  display: flex;
+}
+
+.announceDiv {
+  width: 50%;
+  padding: 10px;
+}
+
+.textAnnounce {
+  padding-bottom: 7em;
+}
+
+.textAnnounce>p {
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.priceAndReferences {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+  align-items: flex-end;
+}
+
+.priceAndReferences>p {
+  margin: 0;
+  color: #4d4d4d;
+}
+
+.textareaContainer {
+  width: 100%;
+}
+
+.textareaButton {
+  display: flex;
+  align-items: flex-end;
+}
+
+.textareaButton>button{
+  margin-left: 10px;
+  font-size: 12px;
+  height: 30px;
+}
+
+.reviewAnnounce{
+  color: #4d4d4d;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  margin: 5px 90px 0 0;
+}
+
+.imagesAndMap {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagesCarrousel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.imagesCarrousel>img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.carrouselContainer {
+  margin-top: 5px;
+}
+
+.carrouselContainer>img {
+  width: 60px;
+  border-radius: 10px;
+}
+
+.modalMap>img {
+  width: 300px;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 800px) {

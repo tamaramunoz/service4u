@@ -88,7 +88,7 @@
 
             <div class="cardsContainer">
 
-              <div class="card mb-3">
+              <div class="card mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <div class="infoCardContainer">
                   <div class="colImage">
                     <img src="../styles/images/Captura.JPG" alt="Announcers">
@@ -106,7 +106,7 @@
                 </div>
               </div>
 
-              <div class="card mb-3">
+              <div class="card mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <div class="infoCardContainer">
                   <div class="colImage">
                     <img src="../styles/images/Captura.JPG" alt="Announcers">
@@ -124,7 +124,7 @@
                 </div>
               </div>
 
-              <div class="card mb-3">
+              <div class="card mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <div class="infoCardContainer">
                   <div class="colImage">
                     <img src="../styles/images/Captura.JPG" alt="Announcers">
@@ -145,36 +145,113 @@
             </div>
           </div>
           <div class="mapContainer">
-            <img
-              src="../styles/images/mapa.JPG"
-              alt="Map">
+            <img src="../styles/images/mapa.JPG" alt="Map">
           </div>
         </div>
       </div>
 
-    </section>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Announce</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="modalBodyContainer">
+                <div class="announceDiv">
+                  <div class="textAnnounce">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat.
 
-    <nav class="navbar fixed-bottom navFooter">
-      <div class="container-fluid">
-        <a class="navbar-brand service4uBrand" href="#">service4u</a>
-        <div class="footerNavContainer" id="navbarNav">
-          <ul class="footerNav">
-            <li class="nav-item">
-              <a class="nav-link navLink" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navLink" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navLink" href="#">Policies</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navLink" href="#">Contact us</a>
-            </li>
-          </ul>
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                      culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                      culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                  <div class="sendMessage">
+                    <div class="textareaButton">
+                      <div class="textareaContainer">
+                        <div class="priceAndReferences">
+                          <p>Price $ 37 p/h</p>
+                          <p>References (22)</p>
+                        </div>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-primary buttonSearch">Message</button>
+                    </div>
+
+                    <div class="reviewAnnounce">
+                      <p>Reviews 92%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="imagesAndMap">
+                  <div class="imagesCarrousel">
+                    <img src="../styles/images/Captura.JPG" alt="Announcers">
+                    <div class="carrouselContainer">
+                      <img src="../styles/images/Captura.JPG" alt="Announcers">
+                      <img src="../styles/images/Captura.JPG" alt="Announcers">
+                      <img src="../styles/images/Captura.JPG" alt="Announcers">
+                      <img src="../styles/images/Captura.JPG" alt="Announcers">
+                    </div>
+                  </div>
+                  <div class="modalMap">
+                    <img src="../styles/images/mapa.JPG" alt="Map">
+                  </div>
+                </div>
+              </div>
+              <div class="commentSection">
+                <div class="user">
+
+                </div>
+                <div class="user">
+
+                </div>
+                <div class="myComment">
+
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
+  </div>
+  </section>
+
+  <nav class="navbar fixed-bottom navFooter">
+    <div class="container-fluid">
+      <a class="navbar-brand service4uBrand" href="#">service4u</a>
+      <div class="footerNavContainer" id="navbarNav">
+        <ul class="footerNav">
+          <li class="nav-item">
+            <a class="nav-link navLink" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navLink" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navLink" href="#">Policies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navLink" href="#">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   </div>
 </body>
 

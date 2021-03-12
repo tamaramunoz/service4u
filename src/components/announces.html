@@ -87,7 +87,6 @@
             </div>
 
             <div class="cardsContainer">
-
               <div class="card mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <div class="infoCardContainer">
                   <div class="colImage">
@@ -186,7 +185,12 @@
                       <div class="textareaContainer">
                         <div class="priceAndReferences">
                           <p>Price $ 37 p/h</p>
-                          <p>References (22)</p>
+                          <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">References (22)</a>
+                        </div>
+                        <div class="collapse collapseReferences" id="collapseExample">
+                          <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                          </div>
                         </div>
                         <textarea class="form-control" aria-label="With textarea"></textarea>
                       </div>
@@ -213,16 +217,58 @@
                   </div>
                 </div>
               </div>
+
               <div class="commentSection">
-                <div class="user">
-
-                </div>
-                <div class="user">
-
-                </div>
                 <div class="myComment">
-
+                  <div class="card mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="modalReferenceContainer">
+                      <div class="referenceImage">
+                        <img src="../styles/images/AS.JPG" alt="Announcers">
+                      </div>
+                      <div class="referenceData">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div class="referenceRate">
+                        <p class="card-text"><small class="text-muted">94%</small></p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+
+                <div class="myComment">
+                  <div class="card mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="modalReferenceContainer">
+                      <div class="referenceImage">
+                        <img src="../styles/images/12.JPG" alt="Announcers">
+                      </div>
+                      <div class="referenceData">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div class="referenceRate">
+                        <p class="card-text"><small class="text-muted">94%</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="myComment">
+                  <div class="card mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="modalReferenceContainer">
+                      <div class="referenceImage">
+                        <img src="../styles/images/user-profile.jpg" alt="Announcers">
+                      </div>
+                      <div class="referenceData">
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                      </div>
+                      <div class="referenceRate">
+                        <p class="card-text"><small class="text-muted">94%</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>

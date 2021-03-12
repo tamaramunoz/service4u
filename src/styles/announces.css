@@ -220,8 +220,17 @@ body {
   color: #4d4d4d;
 }
 
+.priceAndReferences>a {
+  margin: 0;
+  color: #4d4d4d;
+}
+
 .textareaContainer {
   width: 100%;
+}
+
+.collapseReferences {
+  margin: 10px 0 10px 0;
 }
 
 .textareaButton {
@@ -275,6 +284,44 @@ body {
 
 .modalMap>img {
   width: 300px;
+}
+
+.commentSection {
+  margin-top: 50px;
+}
+
+.modalReferenceContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.referenceImage {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.referenceData>textarea {
+  max-width: 600px;
+  width: 600px;
+}
+
+.referenceData>p {
+  margin: 0;
+}
+
+.referenceRate {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.referenceImage>img {
+  width: 90px;
 }
 
 /* Responsive */

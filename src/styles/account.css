@@ -128,7 +128,86 @@ body {
 }
 
 /* Modal My Announces */
+.cardAnnounceContainer {
+  display: flex;
+  align-items: center;
+}
 
+.infoCardContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.colImage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.colImage>img {
+  min-width: 200px;
+  height: auto;
+}
+
+.colData {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.cityName {
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.cardTitle {
+  color: #4d4d4d;
+}
+
+.cardText {
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cardRate {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.actionsGroupIcons {
+  display: flex;
+}
+
+.actionsGroupIcons>img {
+  max-width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.actionsGroupIcons {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Responsive */
+@media screen and (max-width: 990px) {
+  .cardAnnounceContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .colImage>img {
+    width: 100px;
+  }
+  .colData {
+    font-size: 12px;
+  }
+}
 
 
 /* Footer */

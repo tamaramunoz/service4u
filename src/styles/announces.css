@@ -371,7 +371,7 @@ body {
 }
 
 .selectAreas {
-  color: #4d4d4d;
+  color: gray;
   margin-bottom: 20px;
 }
 
@@ -384,11 +384,47 @@ body {
   max-height: 150px;
 }
 
+.checkBoxesArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #4d4d4d;
+}
+
+.checkBoxesArea>input {
+  width: 90px;
+}
+
 .groupServicePhoto {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 50%;
+}
+
+.imageBorders {
+  padding: 70px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-bottom: 10px;
+}
+
+.imageButtons {
+  margin-bottom: 50px;
+}
+
+.imageButtons>button {
+  border-radius: 10px;
+}
+
+.imageAddButton {
+  margin-top: 70px;
+}
+
+.imageAddButton>button {
+  width: 150px;
 }
 
 

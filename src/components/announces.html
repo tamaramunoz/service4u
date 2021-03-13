@@ -315,9 +315,24 @@
                 </select>
                 <input type="text" class="form-control" placeholder="Location" aria-label="Username"
                   aria-describedby="addon-wrapping">
-                <div>
-                  checkboxes
+
+                <div class="checkBoxesArea">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Negotiate
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Fixed price
+                    </label>
+                  </div>
+                  <input type="text" class="form-control" placeholder="$0.00" aria-label="Username"
+                    aria-describedby="addon-wrapping">
                 </div>
+
                 <input type="text" class="form-control" placeholder="Phone" aria-label="Username"
                   aria-describedby="addon-wrapping">
                 <input type="text" class="form-control" placeholder="Title" aria-label="Username"
@@ -326,12 +341,14 @@
               </div>
 
               <div class="groupServicePhoto">
-                <div>photo</div>
-                <div>
+                <div class="imageBorders">photo</div>
+                <div class="imageButtons">
                   <button type="button" class="btn btn-primary buttonSearch">Search image</button>
                   <button type="button" class="btn btn-primary buttonSearch">+</button>
                 </div>
-                <button type="button" class="btn btn-primary buttonSearch">Add</button>
+                <div class="imageAddButton">
+                  <button type="button" class="btn btn-primary buttonSearch">Add</button>
+                </div>
               </div>
             </div>
           </div>

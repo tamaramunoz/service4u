@@ -82,7 +82,8 @@
 
               <div class="addService">
                 <p>Add service</p>
-                <button type="button" class="btn btn-primary">+</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop">+</button>
               </div>
             </div>
 
@@ -149,7 +150,7 @@
         </div>
       </div>
 
-      <!-- Modal -->
+      <!-- Modal Announce -->
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -288,6 +289,55 @@
           </div>
         </div>
       </div>
+
+      <!-- Modal New Service  -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">New service</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body modalBodyService">
+              <div class="groupServiceInputs">
+                <select class="form-select selectAreas" aria-label="Default select example">
+                  <option selected>Area</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <select class="form-select selectAreas" aria-label="Default select example">
+                  <option selected>Process area</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <input type="text" class="form-control" placeholder="Location" aria-label="Username"
+                  aria-describedby="addon-wrapping">
+                <div>
+                  checkboxes
+                </div>
+                <input type="text" class="form-control" placeholder="Phone" aria-label="Username"
+                  aria-describedby="addon-wrapping">
+                <input type="text" class="form-control" placeholder="Title" aria-label="Username"
+                  aria-describedby="addon-wrapping">
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+
+              <div class="groupServicePhoto">
+                <div>photo</div>
+                <div>
+                  <button type="button" class="btn btn-primary buttonSearch">Search image</button>
+                  <button type="button" class="btn btn-primary buttonSearch">+</button>
+                </div>
+                <button type="button" class="btn btn-primary buttonSearch">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
   </div>
   </section>
 
@@ -312,6 +362,7 @@
       </div>
     </div>
   </nav>
+
   </div>
 </body>
 

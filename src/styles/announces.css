@@ -233,18 +233,39 @@ body {
   margin: 10px 0 10px 0;
 }
 
+.referencesBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.referencesContact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 13px;
+  border: 1px solid #cccccc;
+  border-radius: 7px;
+  margin-bottom: 5px;
+}
+
+.referencesContact>p {
+  margin-bottom: 2px;
+}
+
 .textareaButton {
   display: flex;
   align-items: flex-end;
 }
 
-.textareaButton>button{
+.textareaButton>button {
   margin-left: 10px;
   font-size: 12px;
   height: 30px;
 }
 
-.reviewAnnounce{
+.reviewAnnounce {
   color: #4d4d4d;
   font-size: 13px;
   display: flex;
@@ -305,8 +326,8 @@ body {
 }
 
 .referenceData>textarea {
-  max-width: 600px;
-  width: 600px;
+  max-width: 500px;
+  width: 500px;
 }
 
 .referenceData>p {
@@ -322,6 +343,20 @@ body {
 
 .referenceImage>img {
   width: 90px;
+}
+
+.myComment {
+  width: 80%;
+}
+
+.commentMyreference {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.commentMyreference>button {
+  height: 40px;
+  margin-left: 10px;
 }
 
 /* Responsive */

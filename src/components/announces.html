@@ -185,11 +185,22 @@
                       <div class="textareaContainer">
                         <div class="priceAndReferences">
                           <p>Price $ 37 p/h</p>
-                          <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">References (22)</a>
+                          <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                            aria-controls="collapseExample">References (22)</a>
                         </div>
                         <div class="collapse collapseReferences" id="collapseExample">
-                          <div class="card card-body">
-                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                          <div class="card card-body referencesBody">
+                            <h6>References</h6>
+                            <div class="referencesContact">
+                              <p>name: </p>
+                              <p>phone: </p>
+                              <p>email: </p>
+                            </div>
+                            <div class="referencesContact">
+                              <p>name: </p>
+                              <p>phone: </p>
+                              <p>email: </p>
+                            </div>
                           </div>
                         </div>
                         <textarea class="form-control" aria-label="With textarea"></textarea>
@@ -253,20 +264,23 @@
                   </div>
                 </div>
 
-                <div class="myComment">
-                  <div class="card mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <div class="modalReferenceContainer">
-                      <div class="referenceImage">
-                        <img src="../styles/images/user-profile.jpg" alt="Announcers">
-                      </div>
-                      <div class="referenceData">
-                        <textarea class="form-control" aria-label="With textarea"></textarea>
-                      </div>
-                      <div class="referenceRate">
-                        <p class="card-text"><small class="text-muted">94%</small></p>
+                <div class="commentMyreference">
+                  <div class="myComment">
+                    <div class="card mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <div class="modalReferenceContainer">
+                        <div class="referenceImage">
+                          <img src="../styles/images/user-profile.jpg" alt="Announcers">
+                        </div>
+                        <div class="referenceData">
+                          <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="referenceRate">
+                          <p class="card-text"><small class="text-muted">94%</small></p>
+                        </div>
                       </div>
                     </div>
                   </div>
+                  <button type="button" class="btn btn-primary buttonSearch">Comment</button>
                 </div>
 
               </div>

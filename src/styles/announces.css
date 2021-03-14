@@ -430,6 +430,54 @@ body {
 
 
 /* Responsive */
+@media screen and (max-width: 699px) {
+  .modalBodyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .announceDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .textAnnounce {
+    padding: 20px;
+  }
+
+  .sendMessage {
+    width: 90%;
+  }
+
+  .imagesAndMap {
+    width: 100%;
+  }
+
+  .commentSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .commentMyreference {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .referenceData>p {
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .referenceData>textarea {
+    width: 200px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .content {
     display: flex;

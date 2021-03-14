@@ -1,83 +1,87 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #root {
-    background: #ffc02a;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ff722a, #ffc02a);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ff722a, #ffc02a);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 100vh;
-    font-family: 'Open Sans', sans-serif;
+  background: #ffc02a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff722a, #ffc02a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff722a, #ffc02a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Navbar */
 .navBarImage>img {
-    width: 150px;
+  width: 150px;
 }
 
 .navTop {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .navLink {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .navLink.active {
-    background-color: #0068ff;
-    border-radius: 10px;
+  background-color: #0068ff;
+  border-radius: 10px;
 }
 
 .headNav {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .info-nav {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Main content */
 .homeWelcome {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
 
 .homeWelcome>img {
-    width: 300px;
-    height: auto;
+  width: 300px;
+  height: auto;
 }
 
 .homeWelcome>p {
-    color: white;
-    font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
 
 .inputGroup {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .buttonSearch {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 /* Footer */
 .footerNav {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
 
 .navFooter {
-    background-color: #0068ff !important;
-    color: #ffffff;
+  background-color: #0068ff !important;
+  color: #ffffff;
+}
+
+.footerContainer>img {
+  width: 60px;
 }

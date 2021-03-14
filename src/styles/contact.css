@@ -67,7 +67,8 @@ body {
   padding-top: 30px;
 }
 
-.inputGroup>input, textarea{
+.inputGroup>input,
+textarea {
   margin-bottom: 10px;
 }
 
@@ -96,4 +97,8 @@ body {
 .navFooter {
   background-color: #0068ff !important;
   color: #ffffff;
+}
+
+.footerContainer>img {
+  width: 70px;
 }

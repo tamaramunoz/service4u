@@ -194,7 +194,6 @@ body {
 }
 
 
-
 /* Footer */
 .footerNav {
   display: flex;
@@ -205,4 +204,8 @@ body {
 .navFooter {
   background-color: #0068ff !important;
   color: #ffffff;
+}
+
+.footerContainer>img {
+  width: 70px;
 }

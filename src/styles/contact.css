@@ -87,6 +87,23 @@ textarea {
   width: 300px;
 }
 
+/* Responsive */
+@media screen and (max-width: 699px) {
+  .contactUsView {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+  }
+
+  .formContainer {
+    width: 100%;
+  }
+
+  .contactContainer {
+    width: 100%;
+  }
+}
+
 /* Footer */
 .footerNav {
   display: flex;

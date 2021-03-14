@@ -195,17 +195,93 @@ body {
   justify-content: space-between;
 }
 
+
+/* Modal References Received */
+.referencesTitle {
+  color: #4d4d4d;
+}
+
+.referenceImage>img {
+  max-width: 100px;
+}
+
+.referenceData {
+  color: #4d4d4d;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+}
+
+.myComment {
+  display: flex;
+  align-items: center;
+}
+
+.modalReferenceContainer {
+  display: flex;
+  align-items: center;
+}
+
+.likesContainer>img {
+  width: 50px;
+}
+
+.haveReferenceContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px;
+  width: 85%;
+}
+
+.haveReferenceContainer>p {
+  margin: 0 20px 0 0;
+}
+
+/* Collapse New Reference */
+.collapseReferenceBody {
+  display: flex;
+  width: 85%;
+}
+
+.newReferenceData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newReferenceAdd {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+
+.newReferenceAdd>button {
+  width: 150px;
+}
+
+
 /* Responsive */
 @media screen and (max-width: 990px) {
   .cardAnnounceContainer {
     display: flex;
     flex-direction: column;
   }
+
   .colImage>img {
     width: 100px;
   }
+
   .colData {
     font-size: 12px;
+  }
+
+  .myComment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 

@@ -15,9 +15,9 @@ body {
 }
 
 /* Navbar */
-.service4uBrand {
-    color: white !important;
-}
+.navBarImage>img {
+    width: 150px;
+  }
 
 .navTop {
     background-color: transparent !important;

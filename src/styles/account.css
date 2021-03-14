@@ -15,8 +15,8 @@ body {
 }
 
 /* Navbar */
-.service4uBrand {
-  color: white !important;
+.navBarImage>img {
+  width: 150px;
 }
 
 .navTop {
@@ -56,8 +56,9 @@ body {
   height: 80vh;
 }
 
-.homeWelcome>h1 {
-  color: white;
+.homeWelcome>img {
+  width: 300px;
+  height: auto;
 }
 
 .homeWelcome>p {

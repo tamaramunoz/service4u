@@ -44,11 +44,12 @@ body {
 /* Main content */
 .mainContainer {
   /* here change the image for background */
-  background-image: url('https://images.pexels.com/photos/3184419/pexels-photo-3184419.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+  background-image: url('../styles/images/servicios-para-empresas.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: 1200px;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -160,6 +161,38 @@ body {
   margin-top: 30px;
   width: 100%;
 }
+
+/* Responsive */
+@media screen and (max-width: 699px) {
+  .servicesCardsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardDown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardUp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .loginRegisterContainer {
+    height: 1200px;
+    width: 100%;
+  }
+
+  .loginView {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
 
 
 /* Footer */

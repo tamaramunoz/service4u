@@ -17,7 +17,7 @@ body {
 /* Navbar */
 .navBarImage>img {
     width: 150px;
-  }
+}
 
 .navTop {
     background-color: transparent !important;
@@ -51,8 +51,9 @@ body {
     height: 80vh;
 }
 
-.homeWelcome>h1 {
-    color: white;
+.homeWelcome>img {
+    width: 300px;
+    height: auto;
 }
 
 .homeWelcome>p {

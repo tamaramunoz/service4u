@@ -285,6 +285,28 @@ body {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .modalProfileBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infoCardContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .haveReferenceContainer {
+    display: flex;
+    width: 100%;
+  }
+
+  .collapseReferenceBody {
+    width: 100%;
+  }
+}
+
 
 /* Footer */
 .footerNav {
